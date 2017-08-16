@@ -31,6 +31,8 @@ body{
 #list{
   display:table;margin:0 auto;
   padding-bottom: 30px;
+  width: 50%
+
 }
 .redText{
   color: #D01515;
@@ -45,5 +47,5 @@ iframe{
   width: 40%;
   margin:auto;
   display: block;
-  margin-top: 30px
+  margin-top: 30px;
 }
