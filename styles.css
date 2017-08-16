@@ -41,3 +41,9 @@ li{
 .aboutUsText{
   display:inline-block;
 }
+iframe{
+  width: 40%;
+  margin:auto;
+  display: block;
+  margin-top: 30px
+}
