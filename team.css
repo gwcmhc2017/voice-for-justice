@@ -1,0 +1,20 @@
+*{
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: #bcd4e6;
+}
+h1{
+  color:	#192472;
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
+#top{
+    color:	#192472;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
