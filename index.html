@@ -10,15 +10,16 @@
 
 <body>
   <body>
-  <div id='font'>
-  <div class='container'>
+
   <div class='title'>Voice For Justice</div>
+  <div id='top'>
   <img src="https://history.libraries.wsu.edu/fall2015/wp-content/uploads/sites/7/2015/08/a7540531527d895d0a835f4e403e233d.jpg" alt="police" style="width:500px;height:250px;" />
-  <img src="https://s-media-cache-ak0.pinimg.com/originals/eb/04/ea/eb04ea41f7c74bb87c4adec914472246.jpg" alt="western mass" style="width:440p;height:250px;"/>
-</div>
+  <img src="http://www.wmpetsitters.com/img/map.png" alt="western mass" style="width:440p;height:250px;"/>
 <h1 class=head>About Us</h1>
 <p class='aboutUsText'>Voice For Justice is a mission to combat police brutality and gun violence in Western Massachusetts. By connecting communities to local police as well as state and local representatives, we hope to bridge the gap in communication. </p>
-<h1 class=head>The Issue</h1>
+</div>
+<div id="issue">
+<h1>The Issue</h1>
 <div id='list'>
 <ul>
   <li>Police have killed <span class="redText">178</span> black people in 2017</li>
@@ -31,20 +32,17 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bX4qUsgHa4Y" frameborder="0" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-X_XY-vWzKs" frameborder="0" allowfullscreen></iframe>
- <div id='head'>
- <h1>Write A Letter To Your Representative!</h1>
 </div>
-   <div id='write'>
-     <div id='reps'>
+<div id='write'>
+ <h1>Write A Letter To Your Representative!</h1>
     <h2>State Senators</h2>
     <p>Elizabeth Warren: <a href="https://www.warren.senate.gov/EmailElizabeth/"target="_blank"> contact information </a></p>
     <p>Ed Markey: <a href="https://www.markey.senate.gov/contact"target="_blank">contact information</a> </p>
   <h2>Governor</h2>
     <p>Charlie Baker: <a href="http://www.mass.gov/governor/constituent-services/contact-governor-office/"target="_blank"> contact information </a></p>
     <h3>Local Representatives</h3>
-<table>
+<table align='center'>
   <tr>
-  </div>
     <th>City/Town</th>
     <th>City/Town Leader</th>
     <th>Contact Information<th/>
@@ -175,23 +173,44 @@
 <td>Katrin Kaminsky</td>
 <td><a href="http://www.worthington-ma.us/Pages/WorthingtonMA_Clerk/index"target="_blank">contact information </a></td>
 </tr>
+
 </table>
+</div>
+</div>
+<div id='confused'>
 <h1>Confused on what to write?</h1>
 <form>
   representative name:<br>
-  <input id="text" name="representative"></input><br>
+  <input id="text" name="representative" placeholder='Elizabeth Warren'></input><br>
   your name:<br>
-  <input id="name" name="your name"></input><br>
-  your town:<br>
-  <input id="location" name="your town"></input><br>
+  <input id="name" name="your name" placeholder='John Doe'></input><br>
+  your address:<br>
+  <input id="location" name="your town" placeholder='Main Street'></input><br>
   what are you concerned about?:<br>
-  <input id="concern" name="what are you concerned about?"></input><br>
+  <input id="concern" name="what are you concerned about?" placeholder='gun control'></input><br>
   what should they do?:<br>
-  <input id="efforts" name="what should they do?"></input><br>
+  <input id="efforts" name="what should they do?" placeholder='make Springfield safer'></input><br>
   your name:<br>
-  <input id="name" name="your name"></input><br>
+  <input id="name" name="your name" placeholder='John Doe'></input><br>
 </form>
 <button id="storybutton">Enter</button>
 <div id="result"></div>
+
+<h1>Confused on what to say over the phone?</h1>
+<form>
+  your name:<br>
+  <input id="person" name="your name" placeholder='John Doe'></input><br>
+  address:<br>
+  <input id="place" name="your address" placeholder='Main Street'></input><br>
+  your concern:<br>
+  <input id="issuez" name="your concern" placeholder='police bruatlity'></input><br>
+  What should they do?:<br>
+  <input id="solution" name="what should they do?" placeholder='stop the issue'></input><br>
+  your contact information(optional)?:<br>
+  <input id="contact" name="contact info?" placeholder='(413)123-4567'></input><br>
+</form>
+<button id="storybutton2">Enter</button>
+<div id="result2"></div>
+</div>
 </body>
 </html>

@@ -1,18 +1,15 @@
-
-.container{
+*{
   text-align: center;
-}
-.head{
-  text-align: center;
-  font-size: 2rem;
 }
 p{
-  text-align: center;
+
   font-size: 25px;
 }
 body{
   background-color: #F4F6F7;
-  margin: 0;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-weight: bold;
+
 }
 .title{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Springfield_Skyline%2C_MA.jpg");
@@ -23,17 +20,13 @@ body{
   width: 100%;
   height:300px;
   justify-content: center;
-  padding-top: 150px;
+
 }
-#font{
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-  font-weight: bold;
-}
+
 #list{
   display:table;margin:0 auto;
   padding-bottom: 30px;
-  width: 50%
-
+  width: 50%;
 }
 .redText{
   color: #D01515;
@@ -43,6 +36,8 @@ li{
 }
 .aboutUsText{
   display:inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 iframe{
   width: 40%;
@@ -51,25 +46,60 @@ iframe{
   margin-top: 30px;
 }
 
-.copy{
-  display: none;
-}
-
 #reps{
   display: block;
-  justify-content: center;
   font-size: 18px;
-  width: 30%;
   margin: auto;
+  margin-bottom: 30px;
 }
-
-#write{
-  text-align: center;
-
-}
-
 #head{
-  text-align: center;
   font-weight: bold;
+  background-color: #92bde7;
+  padding-top: 30px;
+}
+#result{
+  margin-bottom:50px;
+  background-color: #ffffff;
+  margin-left: 400px;
+  margin-right: 400px;
 
+}
+#confused{
+  padding-top: 20px;
+  background-color:	#456bbd;
+  background-size: 1400px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#table{
+justify-content: center;
+margin-left: 30%;
+}
+#top{
+  background-color:	#c9e6ff;
+  padding-top: 30px;
+}
+#issue{
+  background-color: #abd9ff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+h1{
+  margin: 0%;
+  font-size: 28px;
+  text-decoration: underline;
+}
+a{
+  color: #D01515;
+}
+#result2{
+  background-color: #ffffff;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#write{
+  background-color: 	#92bde7;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
