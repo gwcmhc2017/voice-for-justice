@@ -13,7 +13,7 @@ body{
 }
 .title{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Springfield_Skyline%2C_MA.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   font-size: 100px;
   color: #041164;
